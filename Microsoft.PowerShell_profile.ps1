@@ -39,7 +39,7 @@ function kn {
 }
 
 $ENV:STARSHIP_CONFIG = "$HOME\.starship\starship.toml"
-$ENV:STARSHIP_DISTRO = "者 xcad"
+$ENV:STARSHIP_DISTRO = "  JSlaig "
 Invoke-Expression (&starship init powershell)
 
 
@@ -268,4 +268,6 @@ Register-ArgumentCompleter -CommandName 'datree' -ScriptBlock {
 
     }
 }
+
+
 
