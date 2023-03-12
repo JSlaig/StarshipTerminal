@@ -12,6 +12,13 @@
 
 ### Config filepaths
 
+1. Firstly we need to set up the profile variable:
+
+```code $PROFILE```
+
+2. Then we paste inside the content of the file named:
+
+```Microsoft.PowerShell_profile.ps1```
 
 ## Linux
 
