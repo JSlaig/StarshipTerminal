@@ -2,6 +2,7 @@
 # Installation of the Starship Terminal
 
 ## Windows
+For Windows, I am setting it up on windows terminal since it is the best one currently available hands down.
 
 ### Install chocolatey
 
