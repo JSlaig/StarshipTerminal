@@ -14,7 +14,7 @@
 
 1. Firstly we need to set up the profile variable:
 
-```code $PROFILE```
+```code $PROFILE``` or ```nvim $PROFILE``` or any other text editor we may have installed
 
 2. Then we paste inside the content of the file named:
 
