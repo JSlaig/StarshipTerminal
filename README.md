@@ -1,28 +1,28 @@
 
-#Installation of the Starship Terminal'
+# Installation of the Starship Terminal
 
-##Windows
+## Windows
 
-###Install chocolatey
+### Install chocolatey
 
 ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
 
-###Install Starship via chocolatey
+### Install Starship via chocolatey
 ```choco install starship```
 
-###Config filepaths
+### Config filepaths
 
 
-##Linux
+## Linux
 
-###Shellscript installation
+### Shellscript installation
 ```sh -c "$(curl -fsSL https://startship.rs/install.sh)"```
 
-###Config filepaths
+### Config filepaths
 
 
-##MacOs
+## MacOs
 
-###Homebrew installation
+### Homebrew installation
 ```brew install starship```
 
