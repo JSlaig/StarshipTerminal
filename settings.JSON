@@ -37,13 +37,19 @@
     {
         "defaults": 
         {
-            "colorScheme": "Campbell",
+            "backgroundImage": "desktopWallpaper",
+            "backgroundImageAlignment": "center",
+            "backgroundImageOpacity": 0.1,
+            "colorScheme": "Olivia++",
             "cursorShape": "filledBox",
+            "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "JetBrainsMono NFM",
                 "size": 11.0
-            }
+            },
+            "opacity": 90,
+            "useAcrylic": true
         },
         "list": 
         [
@@ -97,7 +103,7 @@
             "selectionBackground": "#FFFFFF",
             "white": "#F2EFED",
             "yellow": "#E5D4AA"
-        }        
+        }
     ],
     "themes": []
 }
