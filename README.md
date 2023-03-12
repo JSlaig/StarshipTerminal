@@ -26,3 +26,4 @@
 ### Homebrew installation
 ```brew install starship```
 
+### Config filepaths
