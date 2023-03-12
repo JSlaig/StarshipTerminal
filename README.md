@@ -4,6 +4,8 @@
 ## Windows
 For Windows, I am setting it up on windows terminal since it is the best one currently available hands down.
 
+
+
 ### Install chocolatey
 
 ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
@@ -26,6 +28,7 @@ For Windows, I am setting it up on windows terminal since it is the best one cur
 3. Set up starship.toml:
 ```code $HOME\.starship\starship.toml``` or ```nvim $HOME\.starship\starship.toml``` or any other text editor we may have installed
 
+4. Copy the content of ```settings.json``` into the json windows terminal file
 ## Linux
 
 ### Shellscript installation
