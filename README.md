@@ -1,46 +1,37 @@
-
 # Installation of the Starship Terminal
 
 ## Windows
-For Windows, I am setting it up on windows terminal since it is the best one currently available hands down.
 
+To install Starship on Windows, we recommend using Windows Terminal since it is currently the best terminal available. Here are the steps to set it up:
 
+### Install Chocolatey
 
-### Install chocolatey
+First, install Chocolatey by running the following command in an elevated PowerShell session:
 
-```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
-### Install Starship via chocolatey
-```choco install starship```
+### Install Starship via Chocolatey
 
-### Config filepaths
+Next, install Starship by running the following command in any PowerShell session:
 
-1. Firstly we need to set up the profile variable:
+`choco install starship`
 
-```code $PROFILE``` or ```nvim $PROFILE``` or any other text editor we may have installed
+### Configure file paths
 
-2. Then we paste inside the content of the file named:
+1. Set up the profile variable by running the following command:
 
-```Microsoft.PowerShell_profile.ps1```
+`code $PROFILE`
 
-2.1. NOTE: It is mandatory for icons to work to have installed a Nerd Font, and to select it in the terminal. If icons still don't work, make sure the encoding of the file is "UTF-8 with BOM"
-(Currently using JetBrainsMono NFM)
+This will open the PowerShell profile file in Visual Studio Code. Alternatively, you can use any other text editor of your choice.
 
-3. Set up starship.toml:
-```code $HOME\.starship\starship.toml``` or ```nvim $HOME\.starship\starship.toml``` or any other text editor we may have installed
+2. Paste the contents of the `Microsoft.PowerShell_profile.ps1` file into the PowerShell profile file.
 
-4. Copy the content of ```settings.json``` into the json windows terminal file
-## Linux
+**Note:** In order for icons to work, you need to have installed a Nerd Font and selected it in the terminal. If icons still don't work, make sure the encoding of the file is "UTF-8 with BOM". We recommend using the JetBrains Mono Nerd Font, which is the font configured in the files, but any other Nerd Font can be used.
 
-### Shellscript installation
-```sh -c "$(curl -fsSL https://startship.rs/install.sh)"```
+3. Set up `starship.toml` by running the following command:
 
-### Config filepaths
+`code $HOME\.starship\starship.toml`
 
+This will open the Starship configuration file in Visual Studio Code. Alternatively, you can use any other text editor of your choice.
 
-## MacOs
-
-### Homebrew installation
-```brew install starship```
-
-### Config filepaths
+4.
