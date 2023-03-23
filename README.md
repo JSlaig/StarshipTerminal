@@ -34,4 +34,4 @@ This will open the PowerShell profile file in Visual Studio Code. Alternatively,
 
 This will open the Starship configuration file in Visual Studio Code. Alternatively, you can use any other text editor of your choice.
 
-4.
+4.Paste the contents of the `starship.toml` file into the PowerShell profile file.
